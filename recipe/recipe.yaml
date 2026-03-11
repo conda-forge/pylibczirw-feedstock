@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.1.1"
+  version: "6.0.0"
 
 package:
   name: pylibczirw
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pylibCZIrw/pylibczirw-${{ version }}.tar.gz
-  sha256: d10e81a83ebaebd704a0a1e2932a4dbc2b20f1f308f13661fb36d28d03caf114
+  sha256: e19b0f8269534efa8cf6c46b61dd2cf2cc2c9118e3eacfbc8971b319ab9022e4
   patches:
     - remove_cmake.patch
 
