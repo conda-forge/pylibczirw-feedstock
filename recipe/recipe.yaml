@@ -14,7 +14,7 @@ source:
     - remove_cmake.patch
 
 build:
-  number: 0
+  number: 1
   skip:
     - match(python, ">=3.14")
   script:
